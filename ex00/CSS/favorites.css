@@ -1,0 +1,83 @@
+/*margin de borde a afuera*/
+/*padding de borde a adentro*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(188, 206, 253);
+}
+
+nav {
+	background-color: rgb(83, 130, 248);
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+h1 {
+	padding: 0px 5px;
+	justify-items: left;
+	margin: 1rem 0rem;
+	color: darkblue;
+}
+
+.menu{
+	list-style-type: none;
+	display: flex;
+	margin: 1rem 0rem;
+	justify-content: space-around;
+}
+
+.menu li{
+	margin: 0.15px;
+}
+
+.menu a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	margin-top: 25px;
+	padding: 15px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color:  rgb(83, 130, 248);
+	justify-content: right;
+	transition: background-color 0.3s;
+}
+
+.menu a:hover {
+	background-color: rgb(21, 80, 133);
+}
+
+p {
+	color:aliceblue;
+}			
+			
+.searchContainer{
+	justify-content: space-around;
+	font-size: 16px;
+	padding: 5px;
+	cursor: pointer;
+}
+			
+.searchBar{
+	display: flex;
+	border-radius: 4px;
+	justify-items: left;
+} 
+
+.searchButton{
+	display: flex;
+	justify-content: right;
+	font-size: 13px;
+	border: none;
+	padding: 5px;
+	padding-right: 10px;
+	border-radius: 4px;
+	color: aliceblue;
+	background-color: rgb(83, 130, 248);
+	cursor: pointer;
+}
